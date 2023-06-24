@@ -14,7 +14,7 @@
                 Contador = Contador + 1
             End If
             A = A + 1
-
         Next
+        lblMostrar.Text = "la cantidad de comas en la frase es: " & Contador
     End Sub
 End Class
